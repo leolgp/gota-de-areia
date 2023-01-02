@@ -1,0 +1,162 @@
+.cabecalho {
+    max-height: 30rem;
+}
+
+.park {
+    max-width: 70vw;
+    padding: 3em;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    border: 1px solid burlywood;
+}
+
+.logo {
+   text-align: center;
+    height: 14rem;
+    margin-top: 1rem;
+    padding: .5rem;
+    background: url(../images/praia.png) center center no-repeat;
+}
+
+.logo h1 {
+    font-size: 60px;
+    color: white;
+    text-shadow: 3px 3px brown;
+}
+
+.logo h2{
+    display: inline-block;
+    color: brown;
+    background-color: rgb(243, 230, 214);
+    font-size: 15px;
+    padding: .5rem;
+    border: 1px solid brown;
+
+}
+
+.cabecalho nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+    height: 3px;
+    margin-bottom: 4rem;
+}
+
+.cabecalho nav ul li {
+    padding: 0.5rem;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    white-space: nowrap;
+    margin: 1rem;
+    text-align: center;
+}
+
+.cabecalho nav ul li a {
+    color: bronw;
+}
+
+.cabecalho nav ul li::before {
+    content: '';
+    background-color: brown;
+    position: absolute;
+    top: 1rem;
+    left: -1rem;
+    padding: .3em;
+    margin-right: 2rem;
+}
+
+.box {
+    padding: 1rem;
+    margin: 1em;
+}
+
+.box a {
+    position: relative;
+}
+
+.box a:hover::before {
+    content: attr(data-tool-kit);
+    background-color: brown;
+    color: white;
+    padding: 1rem;
+    position: absolute;
+    top: 0;
+}
+
+.box h2,.box h3 {
+    font-weight: 700;
+    margin: 2em;
+    background-color: burlywood;
+    color: white;
+    padding: 1rem;
+    width: 200px;
+}
+
+.box h2 span {
+    background-color: orangered;
+    color: white;
+    padding: .5rem;
+}
+
+.box p {
+    font-size: 2rem;
+}
+
+.box p span {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: .2rem;
+}
+
+.box ul {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box ul li {
+    width: 150px;
+    font-size: 1em;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 2em;
+    white-space: nowrap;
+}
+
+.box ul li::before {
+    content: ' - ';
+    margin: 10px;
+    width: 10px;
+    height: 10px;
+    background-color: burlywood;
+    color: brown;
+    display: inline-block;
+}
+
+.box .imagem {
+    padding: 1rem;
+    max-width: 14em;
+    margin: 1em;
+    background-color: antiquewhite;
+    border: 1px solid burlywood;
+}
+
+.box h2::before {
+    content: '';
+    background-color: antiquewhite;
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+}
+
+#contato p {
+    text-align: center;
+}
+
+#contato img {
+    max-width: 3rem;
+    margin-top: 1rem;
+}

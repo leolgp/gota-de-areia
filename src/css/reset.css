@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: brown;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: bisque;
+}
+
+body{
+    font-size: 1rem;
+    font-family: 'Prosto One', cursive;
+    font-family: 'Unbounded', cursive;
+    font-weight: 400;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+img{
+    width:100%;
+}

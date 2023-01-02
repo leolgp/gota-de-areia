@@ -1,0 +1,88 @@
+@media(max-width:426px){
+    .logo{
+        background: brown center center;
+        max-width: 100vw;
+        height: 50px;
+        text-align: center;
+    }
+
+    .logo h1{
+        font-size: 30px;
+    }
+
+    .logo h2{
+        font-size: 12px;
+    }   
+    
+    header {
+       display: block;
+    }
+
+    .cabecalho nav ul li{
+        margin: 1rem;
+    }
+
+    .cabecalho nav ul li::before {
+        content: '';
+        background-color: brown;
+        position: absolute;
+        top: 1rem;
+        left: 4rem;
+        padding: .3em;
+        margin-right: 2rem;
+    }
+
+    .cabecalho nav {
+        margin-bottom: 15rem;
+    }
+
+    .cabecalho nav ul{
+        display: block;
+        margin-bottom: 5rem;
+
+    }
+
+.park{
+    max-width: 70%;
+    padding: 1.5rem;
+}
+
+
+
+.box a {
+    position: relative;
+}
+
+.box a:hover::before {
+    content: attr(data-tool-kit);
+    background-color: brown;
+    color: white;
+    padding: 1rem;
+    position: absolute;
+    top: 0;
+}
+
+.box h2,
+h3 {
+    font-weight: 700;
+    margin: 1em;
+    background-color: burlywood;
+    color: white;
+    padding: 1rem;
+    width: 200px;
+}
+
+.box p {
+    margin: 1em;
+    font-size: 1.2rem;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+.box ul li {
+    padding: 5px;
+    margin-bottom: 0;
+    white-space: nowrap;
+}
+
+}
