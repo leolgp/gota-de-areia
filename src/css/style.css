@@ -160,3 +160,7 @@
     max-width: 3rem;
     margin-top: 1rem;
 }
+
+#contato p a:hover::before {
+    display: none;
+    }
